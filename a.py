@@ -8,7 +8,7 @@ camara=cv2.VideoCapture(0)
 
 while(True):
     ret,frame=camara.read()
-    cv2.imshow("Frame",frame)
+    cv2.imshow("frame",frame)
     if cv2.waitKey(1):
         break
 camara.release()
